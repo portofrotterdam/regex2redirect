@@ -1,0 +1,9 @@
+displayName: "Regex2Redirect"
+type: middleware
+
+import: github.com/portofrotterdam/regex2redirect
+
+summary: "Redirect to a url from inside the response body"
+
+testData:
+  regex: '\w+:(\/?\/?)[^\s"]+'
